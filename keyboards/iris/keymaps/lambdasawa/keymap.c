@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          ,    ,    ,    ,    ,    ,                   ,    ,    ,    ,    ,    ,
          ,PLUS,MINS,ASTR,SLSH,    ,                   ,COLN,SCLN,LBRC,RBRC,    ,
      AT  ,PERC,AMPR,PIPE,EQL ,EXLM,               QUOT,COMM,DOT ,LPRN,RPRN,TILD,
-     HASH,DLR ,CIRC,SLSH,UNDS,QUES,    ,         ,DQUO,LT  ,GT  ,LCBR,RCBR,GRV ,
+     HASH,DLR ,CIRC,BSLS,UNDS,QUES,    ,         ,DQUO,LT  ,GT  ,LCBR,RCBR,GRV ,
                            ,    ,    ,             ,    ,
   ),
 
