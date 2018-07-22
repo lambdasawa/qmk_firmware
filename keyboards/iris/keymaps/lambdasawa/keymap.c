@@ -36,18 +36,18 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT_kc(
-         , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  , 9  , 0  ,    ,
-     ESC , Q  , W  , E  , R  , T  ,                Y  , U  , I  , O  , P  ,ESC ,
-     TAB , A  , S  , D  , F  , G  ,                H  , J  , K  , L  ,BSPC,TAB ,
-     LSFT, Z  , X  , C  , V  , B  ,LCTL,     RALT, N  , M  ,ENT ,SPC ,DEL ,RSFT,
-                       LOWR,LGUI,LCTL,         RALT,RCTL,RASE
+         ,    ,    ,    ,    ,    ,                   ,    ,    ,    ,    ,    ,
+         , Q  , W  , E  , R  , T  ,                Y  , U  , I  , O  , P  ,    ,
+         , A  , S  , D  , F  , G  ,                H  , J  , K  , L  ,MHEN,    ,
+         , Z  , X  , C  , V  , B  ,LSFT,     RALT, N  , M  ,COMM,DOT ,HENK,    ,
+                       LOWR,LGUI,LSFT,         RALT,RCTL,RASE
   ),
 
   [_LOWER] = LAYOUT_kc(
          ,    ,    ,    ,    ,    ,                   ,    ,    ,    ,    ,    ,
-         ,PLUS,MINS,ASTR,SLSH,    ,                   ,COLN,SCLN,LBRC,RBRC,    ,
-     AT  ,PERC,AMPR,PIPE,EQL ,EXLM,               QUOT,COMM,DOT ,LPRN,RPRN,TILD,
-     HASH,DLR ,CIRC,BSLS,UNDS,QUES,    ,         ,DQUO,LT  ,GT  ,LCBR,RCBR,GRV ,
+         ,PLUS,MINS,ASTR,SLSH,PERC,               AT  ,COLN,SCLN,LBRC,RBRC,    ,
+         ,HASH,AMPR,PIPE,EQL ,EXLM,               TILD,QUOT,DQUO,LPRN,RPRN,    ,
+         ,DLR ,CIRC,BSLS,UNDS,QUES,    ,         ,GRV ,LT  ,GT  ,LCBR,RCBR,    ,
                            ,    ,    ,             ,    ,
   ),
 
@@ -62,8 +62,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_ADJUST] = LAYOUT_kc(
          ,    ,    ,    ,    ,    ,                   ,    ,    ,    ,    ,    ,
          ,F1  ,F2  ,F3  ,F4  ,    ,                   ,1   ,2   ,3   ,    ,    ,
-         ,F5  ,F6  ,F7  ,F8  ,    ,                   ,4   ,5   ,6   ,    ,    ,
-     RST ,F9  ,F10 ,F11 ,F12 ,PSCR,    ,         ,    ,7   ,8   ,9   ,0   ,    ,
+         ,F5  ,F6  ,F7  ,F8  ,RST ,                   ,4   ,5   ,6   ,    ,    ,
+         ,F9  ,F10 ,F11 ,F12 ,PSCR,    ,         ,    ,7   ,8   ,9   ,0   ,    ,
                            ,    ,    ,             ,    ,
   )
 
