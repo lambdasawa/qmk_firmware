@@ -36,7 +36,7 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT_kc(
-         ,    ,    ,    ,    ,    ,                   ,    ,    ,    ,    ,    ,
+         , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  , 9  , 0  ,    ,
          , Q  , W  , E  , R  , T  ,                Y  , U  , I  , O  , P  ,    ,
          , A  , S  , D  , F  , G  ,                H  , J  , K  , L  ,KANA,    ,
          , Z  , X  , C  , V  , B  ,    ,         , N  , M  ,COMM,DOT ,RSFT,    ,
@@ -61,9 +61,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_ADJUST] = LAYOUT_kc(
          ,    ,    ,    ,    ,    ,                   ,    ,    ,    ,    ,    ,
-         ,F1  ,F2  ,F3  ,F4  ,    ,                   ,1   ,2   ,3   ,    ,    ,
+         ,F1  ,F2  ,F3  ,F4  ,    ,                   ,7   ,8   ,9   ,    ,    ,
          ,F5  ,F6  ,F7  ,F8  ,RST ,                   ,4   ,5   ,6   ,    ,    ,
-         ,F9  ,F10 ,F11 ,F12 ,PSCR,    ,         ,    ,7   ,8   ,9   ,0   ,    ,
+         ,F9  ,F10 ,F11 ,F12 ,PSCR,    ,         ,0   ,1   ,2   ,3   ,    ,    ,
                            ,    ,    ,             ,    ,
   )
 
